@@ -20,7 +20,7 @@ import DrawerMenu from './Drawer';
 
 const Header = (props) => {
     const { t } = useTranslation();
-
+    
     const userData = useSelector((state) => state.auth.data);
     const posts = useSelector((state) => state.posts);
     const classes = useStyles();

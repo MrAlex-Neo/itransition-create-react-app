@@ -2,8 +2,6 @@ import React, { useState, useEffect, useRef } from 'react';
 import { useDispatch, useSelector } from "react-redux";
 import { useTranslation } from 'react-i18next';
 
-
-
 import { useTheme } from '@material-ui/core/styles';
 import { Link } from 'react-router-dom'
 import Drawer from '@material-ui/core/Drawer';
